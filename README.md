@@ -16,14 +16,6 @@ image/frame ─▶ YOLO26s detector ─▶ crop (+7% margin) ─▶ MobileNetV3-
 | Keypoint model | MobileNetV3-Small + MLP head, Wing loss, 11 keypoints from 224×224 crops |
 | Pose | `cv2.solvePnP` (EPnP) on the predicted keypoints + 3D model |
 
-## Results
-
-> Fill these in from `scripts/evaluate_pose.py` (see below). Do not leave placeholders in a public repo.
-
-| Domain | Images | Keypoint err (px) | Rotation err (°, median) | Translation err (m, median) |
-|---|---|---|---|---|
-| Synthetic (val) | – | – | – | – |
-| Sunlamp | – | – | – | – |
 
 ## Quickstart
 
