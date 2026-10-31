@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+ultralytics>=8.4.0
+torch
+torchvision
+opencv-python-headless
+numpy
+scipy
